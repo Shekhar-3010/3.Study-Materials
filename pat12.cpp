@@ -1,19 +1,18 @@
 #include<iostream>
-#include<string>
 using namespace std ;
 int main(){
-     int n ; 
+ int n ; 
     cout<<"entre the number of rows"<<endl;
     cin>>n;
     char ch ='A';
-    for(int i=0;i<=n;i++){4
-    
-        for(int j=0;j<=i;j++){
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
             cout<<ch<<" ";
-            ch++;
-        }
-        cout<<endl;
-    }
 
+        }
+        ch++;
+        cout<<endl;
+    
+    }
 return 0;
 }
